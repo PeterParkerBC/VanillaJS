@@ -8,6 +8,7 @@
     <title>I'm a sexy boy</title>
 </head>
 <body>
+    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
     <input 
     required
@@ -16,15 +17,20 @@
     placeholder="What is your name?"/>
     <button>Log In</button>
     </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form"> 
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
     <div id="quote">
         <span></span>
         <span></span>
     </div>
     <script src="js/4LOGIN/4.6LoadingUsername.js"></script>
     <script src="js/5Clock/5.Clock.js"></script>
-    <script src="js/6Quotes/quotes.js"></script>
+    <script src="js/6Quotes/6quotes.js"></script>
+    <script src="js/6Quotes/6Background.js"></script>
+    <script src="js/7Todolist/7.5Loading.js"></script>
 </body>
 </html> 
 
